@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QSVMweb</title>
+    <link rel="icon" href="../static/images/logos/logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/styles/css/nav.css">
+    <link href="../static/styles/css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<style>
+  div#aboutus{
+    background: -moz-linear-gradient(left, #000080 0%, #4B0082 100%);
+    background: -webkit-linear-gradient(left, #000080 0%, #4B0082 100%);
+    background: linear-gradient(to right, #000080 0%, #4B0082 100%);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+	}
+
+  #text{
+    color: white;
+  }
+  #title{
+        font-weight: bold;
+        background-image: linear-gradient(to left,darkblue, blueviolet);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+#colonnaHome{
+     margin-left: 20%;
+    margin-right: 20%;
+}
+</style>
+<!-- NAVBAR -->
+            {% extends 'base.html' %}
+            {% block content %}
+
+
+<!-- ABOUT US SECTION -->
+<div id="colonnaHome">
+  <div>
+      <h1 id="title" align="center">ABOUT US</h1>
+      <p class="font-italic mb-4 text-center">QuantuMoonLight is a project carried
+          out in the university by a team of students of the three-year and master's degree course in computer science.</p>
+  </div><br>
+  <div class="row pb-5 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0"><img src="../static/images/members/GAR.jpg" alt="GAR" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0 font-weight-bold">Gennaro Alessio Robertazzi</h5>
+            <p class="font-italic">Project Manager</p>
+            <a href="mailto:g.robertazzi4@studenti.unisa.it"><img src="../static/images/icons/envelope.svg" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0"><img src="../static/images/members/GV.jpg" alt="GV" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0 font-weight-bold">Gabriele Vassallo</h5>
+            <p class="font-italic">Project Manager</p>
+              <a href="mailto:g.vassallo13@studenti.unisa.it"><img src="../static/images/icons/envelope.svg" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0"><img src="../static/images/members/ALM.JPG" alt="ALM" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0 font-weight-bold">Antonio La Marca</h5>
+            <p class="font-italic">Team Member</p>
+            <a href="mailto:a.lamarca24@studenti.unisa.it"><img src="../static/images/icons/envelope.svg" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0"><img src="../static/images/members/FA.png" alt="FA" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0 font-weight-bold">Francesco Amato</h5>
+            <p class="font-italic">Team Member</p>
+            <a href="f.amato37@studenti.unisa.it"><img src="../static/images/icons/envelope.svg" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="row pb-5 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0"><img src="../static/images/members/FT.png" alt="FT" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0 font-weight-bold">Fiorentino Tomeo</h5>
+            <p class="font-italic">Team Member</p>
+            <a href="mailto:f.tomeo5@studenti.unisa.it"><img src="../static/images/icons/envelope.svg" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0"><img src="../static/images/members/GC.jpg" alt="GC" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0 font-weight-bold">Giacomo Cubicciotti</h5>
+            <p class="font-italic">Team Member</p>
+            <a href="mailto:g.cubicciotti@studenti.unisa.it"><img src="../static/images/icons/envelope.svg" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0"><img src="../static/images/members/GDA.jpg" alt="GDA" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0 font-weight-bold">Gerardo D'Ambola</h5>
+            <p class="font-italic">Team Member</p>
+            <a href="mailto:g.dambola@studenti.unisa.it"><img src="../static/images/icons/envelope.svg" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0"><img src="../static/images/members/GP.jpg" alt="GP" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0 font-weight-bold">Giuseppe Pagano</h5>
+            <p class="font-italic">Team Member</p>
+            <a href="mailto:g.pagano45@studenti.unisa.it"><img src="../static/images/icons/envelope.svg" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="row pb-5 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0"><img src="../static/images/members/LC.jpg" alt="LC" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0 font-weight-bold">Luca Contrasto</h5>
+            <p class="font-italic">Team Member</p>
+            <a href="mailto:l.contrasto@studenti.unisa.it"><img src="../static/images/icons/envelope.svg" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0"><img src="../static/images/members/MC.PNG" alt="MC" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0 font-weight-bold">Matteo Cicalese</h5>
+            <p class="font-italic">Team Member</p>
+            <a href="mailto:m.cicalese18@studenti.unisa.it"><img src="../static/images/icons/envelope.svg" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+    <!-- FOOTER  -->
+{% endblock %}
+
+
+</body>
+</html>

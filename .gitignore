@@ -1,0 +1,4 @@
+/app/log/
+/.idea/
+/.pytest_cache
+/htmlcov
